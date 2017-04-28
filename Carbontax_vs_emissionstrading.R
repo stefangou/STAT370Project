@@ -10,3 +10,4 @@ boxplot(carbontax$Difference.Population,emissionstrading$Difference.Population, 
 
 t.test(carbontax$Difference.Population,emissionstrading$Difference.Population)
 
+
