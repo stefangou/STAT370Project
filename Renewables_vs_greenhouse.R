@@ -9,3 +9,4 @@ text(renewables$difference,greenhouse2014$difference, labels=greenhouse2014$LOCA
 greenhouse.slr<-lm(greenhouse2014$difference~renewables$difference)
 plot(greenhouse2014$difference~renewables$difference, main="Change in % Renewables vs. Change in Greenhouse Gases per Capita", xlab="Change in % Renewables of Total Energy", ylab="Change in GHG Per Capita")
 abline(greenhouse.slr)
+
